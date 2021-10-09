@@ -34,7 +34,7 @@ export default function SearchBar(props) {
     const fetchQuestion = async () => {
         const cookies = new Cookies()
         const idToken = cookies.get('idToken')
-        const res = await fetch('/unanswered_question', {
+        const res = await fetch('https://xha59eviig.execute-api.ap-south-1.amazonaws.com/prod/unanswered_question', {
             method: 'GET',
             headers: {
                 'Authorization': 'Bearer '+idToken,

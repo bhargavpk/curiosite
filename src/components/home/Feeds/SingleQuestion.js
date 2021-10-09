@@ -32,7 +32,7 @@ const SingleQuestion = (props) => {
 
     const idToken = (new Cookies()).get('idToken')
     const questionId = id
-    const res = await fetch('/question_answers?id='+questionId, {
+    const res = await fetch('https://xha59eviig.execute-api.ap-south-1.amazonaws.com/prod/question_answers?id='+questionId, {
         method: 'GET',
         headers: {
             'Authorization': 'Bearer '+idToken,
@@ -73,7 +73,7 @@ const SingleQuestion = (props) => {
     const idToken = (new Cookies()).get('idToken')
       if(upvoteId !== "")
       {
-        const res = await fetch('/upvote', {
+        const res = await fetch('https://xha59eviig.execute-api.ap-south-1.amazonaws.com/prod/upvote', {
             method: 'PATCH',
             headers: {
                 'Authorization': 'Bearer '+idToken,
@@ -91,7 +91,7 @@ const SingleQuestion = (props) => {
       }
       if(downvoteId !== "")
       {
-        const res = await fetch('/downvote', {
+        const res = await fetch('https://xha59eviig.execute-api.ap-south-1.amazonaws.com/prod/downvote', {
             method: 'PATCH',
             headers: {
                 'Authorization': 'Bearer '+idToken,
@@ -119,7 +119,7 @@ const SingleQuestion = (props) => {
 
   const submitAnswer = async content => {
     const idToken = (new Cookies()).get('idToken')
-      const res = await fetch('/answer', {
+      const res = await fetch('https://xha59eviig.execute-api.ap-south-1.amazonaws.com/prod/answer', {
           method: 'POST',
           headers: {
               'Authorization': 'Bearer '+idToken,

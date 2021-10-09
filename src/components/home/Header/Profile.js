@@ -42,7 +42,7 @@ const Profile = () => {
 
     const submitTags = async tags => {
         const idToken = (new Cookies()).get('idToken')
-        const res = await fetch('/add_tags', {
+        const res = await fetch('https://xha59eviig.execute-api.ap-south-1.amazonaws.com/prod/add_tags', {
             method: 'PATCH',
             headers: {
                 'Authorization': 'Bearer '+idToken,

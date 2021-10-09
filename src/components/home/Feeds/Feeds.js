@@ -35,7 +35,7 @@ export default function Feeds(props) {
   const createFollowsFeed = async () => {
     const idToken = new Cookies().get("idToken")
     const fetchUri =
-      "/follows_questions?limit=5&skip=" +
+      "https://xha59eviig.execute-api.ap-south-1.amazonaws.com/prod/follows_questions?limit=5&skip=" +
       feedState.skipPage +
       "&date=" +
       feedState.feedFetchDateTime;

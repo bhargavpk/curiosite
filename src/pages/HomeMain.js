@@ -30,7 +30,7 @@ export default function HomeMain() {
       if (tokenSet) {
         const token = new Cookies().get("idToken");
         tokenSetModify(false);
-        const res = await fetch("/googleAuth", {
+        const res = await fetch("https://xha59eviig.execute-api.ap-south-1.amazonaws.com/prod/googleAuth", {
           method: "POST",
           headers: {
             Authorization: "Bearer " + token,

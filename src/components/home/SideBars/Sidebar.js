@@ -24,7 +24,7 @@ function Sidebar() {
                 {
                     const fetchTags = async () => {
                         const idToken = (new Cookies()).get('idToken')
-                        const res = await fetch('/all_tags', {
+                        const res = await fetch('https://xha59eviig.execute-api.ap-south-1.amazonaws.com/prod/all_tags', {
                                 method: 'GET',
                                 headers: {
                                         'Content-Type': 'application/json',

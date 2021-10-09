@@ -47,7 +47,7 @@ const Create = () => {
     // Make request to backend
     const cookies = new Cookies();
     const token = cookies.get("idToken");
-    const res = await fetch("/question", {
+    const res = await fetch("https://xha59eviig.execute-api.ap-south-1.amazonaws.com/prod/question", {
       method: "POST",
       headers: {
         Authorization: "Bearer " + token,
