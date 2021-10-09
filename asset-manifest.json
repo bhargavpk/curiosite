@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/curiosite/static/css/main.0b6d9b02.chunk.css",
+    "main.js": "/curiosite/static/js/main.1613fa79.chunk.js",
+    "main.js.map": "/curiosite/static/js/main.1613fa79.chunk.js.map",
+    "runtime-main.js": "/curiosite/static/js/runtime-main.ab689917.js",
+    "runtime-main.js.map": "/curiosite/static/js/runtime-main.ab689917.js.map",
+    "static/js/2.e057f083.chunk.js": "/curiosite/static/js/2.e057f083.chunk.js",
+    "static/js/2.e057f083.chunk.js.map": "/curiosite/static/js/2.e057f083.chunk.js.map",
+    "index.html": "/curiosite/index.html",
+    "static/css/main.0b6d9b02.chunk.css.map": "/curiosite/static/css/main.0b6d9b02.chunk.css.map",
+    "static/js/2.e057f083.chunk.js.LICENSE.txt": "/curiosite/static/js/2.e057f083.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ab689917.js",
+    "static/js/2.e057f083.chunk.js",
+    "static/css/main.0b6d9b02.chunk.css",
+    "static/js/main.1613fa79.chunk.js"
+  ]
+}
