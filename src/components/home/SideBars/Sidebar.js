@@ -50,7 +50,7 @@ function Sidebar() {
 
         const recentItem = (topic) => (
                 <Link to={{
-                    pathname: `/tag_questions/${topic}`
+                    pathname: `https://xha59eviig.execute-api.ap-south-1.amazonaws.com/prod/tag_questions/${topic}`
                 }}>
                     <div className="sidebar__recentitem">
                         <span className="sidebar__hash">#</span>
