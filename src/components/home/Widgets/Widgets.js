@@ -14,7 +14,7 @@ function Widgets() {
                 {
                         const idToken = (new Cookies()).get('idToken')
                         const fetchTrendingList = async () => {
-                                const res = await fetch('/trending_questions', {
+                                const res = await fetch('https://xha59eviig.execute-api.ap-south-1.amazonaws.com/prod/trending_questions', {
                                         method: 'GET',
                                         headers: {
                                                 'Content-Type': 'applicaion/json',
