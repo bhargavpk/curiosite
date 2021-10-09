@@ -1,0 +1,15 @@
+.answer-container {
+    display: flex;
+    justify-content: flex-start;
+}
+.vote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0px 10px;
+}
+.vote-count-container {
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+}

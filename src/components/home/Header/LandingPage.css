@@ -1,0 +1,15 @@
+.main_body {
+    display: flex;
+    margin-top: 20px;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .main{
+    background-color: #f3f2ef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+  }
